@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +18,6 @@
     "pg": "^8.3.2"
   },
   "devDependencies": {
-    "node": "^2.0.4"
+    "nodeman": "^2.0.4"
   }
 }
