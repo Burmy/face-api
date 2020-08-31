@@ -13,10 +13,9 @@ const image = require('./controllers/image');
 const db = knex({
     client: 'pg',
     connection: {
-        host: 'postgresql-metric-96579',
-        user: 'burmy',
-        password: '',
-        database: 'face-ai'
+        host: 'process.env.DATABASE_URL',
+        ssl: true,
+
     }
 });
 
